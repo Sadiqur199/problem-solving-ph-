@@ -24,3 +24,29 @@
     let arrayOutput = findOddSum(arrayInput)
     let oddNumberarray = findArraySum(arrayOutput);
     console.log(oddNumberarray)
+
+
+
+
+
+
+
+
+
+    // second sortcut array odd sum
+
+    function findOddSum(arrOfNumbers){
+      let sum = 0;
+      for(let i=0;i<arrOfNumbers.length;i++)
+      {
+        arrOfNumbers[i];
+        if(arrOfNumbers[i]%2 == 1)
+        {
+           sum+=arrOfNumbers[i]
+        }
+      }
+      return sum;
+  }
+  let ArrayInput = [5, 7, 8, 10, 45, 30];
+  let ArrayOutput = findOddSum(arrayInput)
+  console.log(ArrayOutput)
